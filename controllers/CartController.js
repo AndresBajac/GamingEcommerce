@@ -1,7 +1,7 @@
 const fs = require('fs');
 const Cart = require('../Models/Cart');
 const path = require('path')
-const ProductController = require('../Controllers/ProductController');
+const ProductController = require('./ProductController');
 const cartsFileName = path.join(__dirname, '../Data/carts.json');
 const productsFileName = path.join(__dirname, '../Data/products.json');
 
